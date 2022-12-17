@@ -262,10 +262,13 @@ nav .content_part .button button{
 ============choose part starts here
 ==================================== */
 
-
+#choose{
+    padding: var(--section_padding);
+}
 #choose .content{
     display: flex;
     justify-content: space-between;
+    margin-top: 137px;
 }
 #choose .content .left_part{
     width: 60%;
@@ -295,6 +298,74 @@ nav .content_part .button button{
     padding-right: 45px;
     padding-top: 10px;
 }
+
+
+/* ==================================
+============review part starts here
+==================================== */
+
+
+#review {
+    padding: var(--section_padding);
+}
+#review .content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    position: relative
+}
+#review .content .one{
+    width: 28%;
+}
+#review .content .one .two{
+    display: flex;
+}
+#review .content .one p{
+    font-family: var(--primary_font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-right: 70px;
+}
+#review .content .one svg{
+    padding-top: 20px;
+}
+#review .content .one .two{
+    padding-top: 20px;
+}
+#review .content .one .two .two_content{
+    padding-left: 20px;
+}
+#review .content .one .two .two_content h5{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--primary_font);
+    color: #737373;
+}
+#review .content .one .two .two_content h6{
+    font-family: var(--primary_font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7B;
+}
+.active{
+    background-color: #F4EFEF;
+    border-radius: 20px;
+    padding: 40px;
+}
+#review .content .left-arrow{
+    position: absolute;
+    left: -65px;
+    top: 50%;
+}
+#review .content .right-arrow{
+    position: absolute;
+    right: -50px;
+    top: 50%;
+}
+
 
 
 

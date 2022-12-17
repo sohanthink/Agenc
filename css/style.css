@@ -279,6 +279,22 @@ nav .content_part .button button{
     width: 49%;
 }
 
+#choose .content .left_part .left_part_content h5{
+    font-family: var(--primary_font);
+    font-size: 25px;
+    font-weight: bold;
+    color: #151515;
+    padding-top: 20px;
+}
+#choose .content .left_part .left_part_content p{
+    font-family: var(--primary_font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    padding-right: 45px;
+    padding-top: 10px;
+}
 
 
 

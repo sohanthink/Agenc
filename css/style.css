@@ -67,6 +67,7 @@ nav .content_part .button button{
     background-color: var(--primary_color);
     font-family: var(--primary_font);
     border-radius: 15px;
+    border: none;
 }
 
 /* ==================================
@@ -113,6 +114,7 @@ nav .content_part .button button{
     background-color: var(--primary_color);
     font-family: var(--primary_font);
     border-radius: 15px;
+    border: none;
 }
 
 
@@ -415,7 +417,7 @@ nav .content_part .button button{
     color: #151515;
     line-height: 26px;
     text-align: left;
-    padding-left: 48px;
+    padding-left: 62px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -426,11 +428,12 @@ nav .content_part .button button{
 }
 #form .content .right_part button{
     background-color: #6A4DF4;
-    padding: 15px 172px;
+    padding: 15px 165px;
     border-radius: 10px;
     color: white;
     font-family: var(--primary_font);
     margin-top: 20px;
+    border: none;
 }
 #form .content .right_part{
     background-color: #ffffff;
@@ -445,15 +448,55 @@ nav .content_part .button button{
 
 
 
+/* ==================================
+============ footer part starts here
+==================================== */
 
-
-
-
-
-
-
-
-
+footer{
+    padding: var(--section_padding);
+}
+footer .content{
+    display: flex;
+    justify-content: space-between;
+}
+footer .content .one{
+    width: 25%;
+}
+footer .content .one p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary_font);
+    line-height: 26px;
+    color: #7B7B7B;
+    padding-top: 30px;
+}
+footer .content .two ul li{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary_font);
+    line-height: 26px;
+    color: #7B7B7B;
+    line-height: 40px;
+}
+footer .content .two ul li a{
+    color: #7B7B7B;
+}
+footer .content .heading{
+    font-weight: 600;
+    font-size: 20px;
+    color:#151515;
+}
+footer .line{
+    margin-top: 50px;
+}
+footer .credit p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary_font);
+    color: #7B7B7B;
+    text-align: center;
+    padding-top: 50px;
+}
 
 
 

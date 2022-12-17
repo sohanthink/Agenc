@@ -350,7 +350,7 @@ nav .content_part .button button{
     font-weight: 400;
     color: #7B7B7B;
 }
-.active{
+#review .content .active{
     background-color: #F4EFEF;
     border-radius: 20px;
     padding: 40px;
@@ -365,6 +365,98 @@ nav .content_part .button button{
     right: -50px;
     top: 50%;
 }
+
+
+/* ==================================
+============form part starts here
+==================================== */
+
+#form{
+    background-color: #F3F3F3;
+    padding: var(--section_padding);
+}
+#form .content{
+    display: flex;
+    justify-content: space-between;
+}
+#form .content .left_part{
+    width: 50%;
+    margin-top: 100px;
+}
+#form .content .right_part{
+    width: 50%;
+}
+#form .content .left_part h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: var(--primary_font);
+    color: #151515;
+}
+#form .content .left_part p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary_font);
+    color: #151515;
+    line-height: 26px;
+    color: #7B7B7B;
+    padding-top: 20px;
+}
+#form .content .right_part h5{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--primary_font);
+    color: #151515;
+    margin-bottom: 30px;
+}
+#form .content .right_part .small_headding{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--primary_font);
+    color: #151515;
+    line-height: 26px;
+    text-align: left;
+    padding-left: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#form .content .right_part input{
+    padding: 15px 120px;
+    border-radius: 10px;
+    font-family: var(--primary_font);
+}
+#form .content .right_part button{
+    background-color: #6A4DF4;
+    padding: 15px 172px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--primary_font);
+    margin-top: 20px;
+}
+#form .content .right_part{
+    background-color: #ffffff;
+    padding: 61px 0;
+    margin-left: 230px;
+    border-radius: 20px;
+    text-align: center;
+}
+#form .content .right_part form lael{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
